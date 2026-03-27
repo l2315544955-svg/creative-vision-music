@@ -1,0 +1,16 @@
+{
+  "name": "creative-vision-music",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "node ./scripts/dev.mjs",
+    "dev:web": "npm run dev --workspace @cvm/web",
+    "dev:api": "npm run dev --workspace @cvm/api",
+    "build": "npm run build --workspace @cvm/web",
+    "start:api": "npm run start --workspace @cvm/api"
+  }
+}
+
