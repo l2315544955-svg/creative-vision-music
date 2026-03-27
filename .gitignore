@@ -6,3 +6,8 @@ dist
 npm-debug.log*
 coverage
 data/payment-orders.json
+apps/data/*.sqlite
+apps/data/*.sqlite-shm
+apps/data/*.sqlite-wal
+apps/data/payment-orders.json
+*.tsbuildinfo
